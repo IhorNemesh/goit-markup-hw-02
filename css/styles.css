@@ -1,12 +1,33 @@
+/* Змінні */
+:root{
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-bg-color:#FFFFFF;
+}
+/* Змінні */
+
 /* прибирає підкреслення посилань */
 a{text-decoration: none;}
 /* прибирає підкреслення посилань */
-/* Обраний  шрифт */
-body{font-family: Roboto, sans-serif;}
-/* Обраний  шрифт */
+
+/* прибирає маркера */
+ul{ list-style: none;}
+/* прибирає маркера */
+
+/* Обраний  шрифт, колір сторінки */
+body{
+    font-family: Roboto, sans-serif;
+    background: var(--primery-bg-color);
+    color: var(--primery-text-color);
+}
+/* Обраний  шрифт, колір сторінки */
 
 /*Головна сторінка початок*/
 /* Шапка */
+.page-header{
+
+}
 .logo{
     font-family: Raleway, sans-serif ;
     font-weight: 700;
@@ -15,13 +36,33 @@ body{font-family: Roboto, sans-serif;}
         letter-spacing: 0.03em;
         color:#000000 ;
     }
-.logo-accent{ color:#2196F3 ;}
+.logo-accent{ color:#2196F3;}
+/* не працює активна сторінка */
+.site-nav .link.current{color: var(--accent-color);}
+/* не працює активна сторінка */
+.site-nave .link{color: var(--title-text-color);}
+.site-nave .link:hover, 
+.site-nave .link:focus{
+    color: var(--accent-color);
+}
+
 
 /* Шапка *
 
 /* Герой */
-
+.hero-background{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
 /* Герой */
+
+/* Секции */
+.section-title{
+    color: var(--title-text-color);
+}
+/* Секции */
 
 /* Опис компанії */
 
