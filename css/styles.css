@@ -35,7 +35,7 @@ body{
         letter-spacing: 0.03em;
         color:#000000;
     }
-.logo-accent{ color:#2196F3;}
+.logo-accent{ color:var(--accent-color);}
 /* Логотип */
 
 /* Навигація по сторінкам*/
@@ -97,11 +97,30 @@ font-family: 'Roboto';
 /* Герой */
 
 /* Секции */
-.section-title{color: var(--title-text-color);}
+.section-title{font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.list-names{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 /* Секции */
 
 /* Опис компанії */
-
+.company-description{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--primery-text-color);
+}
 /* Опис компанії */
 
 /* Опис компанії зображення */
@@ -109,7 +128,13 @@ font-family: 'Roboto';
 /* Опис компанії зображення */
 
 /* Посади працівників компанії зображення */
-
+.list-positions{
+    font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primery-text-color);
+}
 /* Посади працівників компанії зображення */
 
 /* Футер */
