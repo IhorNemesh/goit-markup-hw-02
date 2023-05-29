@@ -39,7 +39,14 @@ body{
 /* Логотип */
 
 /* Навигація по сторінкам*/
-.site-nav .link{color: var(--title-text-color);}
+.site-nav .link{color: var(--title-text-color);
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+}
 .site-nav .link:hover, 
 .site-nav .link:focus{color: var(--accent-color);}
 /* Навигація по сторінкам*/
@@ -49,7 +56,13 @@ body{
 /* активна сторінка */
 
 /* Посилання на контакти */
-.contact-list .link{ color: var(--primery-text-color);}
+.contact-list .link{ color: var(--primery-text-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .contact-list .link:hover,
 .contact-list .link:focus{color: var(--accent-color);}
 /* Посилання на контакти */
