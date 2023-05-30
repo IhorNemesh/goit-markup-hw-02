@@ -70,7 +70,7 @@ font-family: 'Roboto';
 
 /* Герой */
 .hero-background{background-color: #2F303A;}
-.hero-title{color: #FFFFFF;
+.hero-title{color:var(--primery-bg-color)
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -89,11 +89,13 @@ font-family: 'Roboto';
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        color: #FFFFFF;
+        color: var(--primery-bg-color);
         background-color: var(--accent-color);
+        cursor: pointer;
 }
 .order-button:hover,
-.order-button:focus{color: #188CE8;}
+.order-button:focus{color: var(--primery-bg-color);
+background-color: #188CE8}
 /* Герой */
 
 /* Секции */
@@ -151,7 +153,7 @@ font-weight: 500;
 .logo-accent {color: #2196F3;}
 /* Логотип */
 
-/* Адрес */
+/* Адреса */
 .address{font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -177,7 +179,7 @@ font-weight: 500;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
-/* Адрес */
+/* Адреса */
 
 /* Футер */
 /*Головна сторінка кінець*/
@@ -186,15 +188,9 @@ font-weight: 500;
 
 
 /* Портфоліо початок*/
-/* Шапка */
-
-/* Шапка */
 
 /* Герой */
 
 /* Герой */
 
-/* Футер */
-
-/* Футер */
 /* Портфоліо кінець*/
