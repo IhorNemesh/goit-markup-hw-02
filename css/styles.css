@@ -73,15 +73,18 @@ font-family: var( --primery-font-fameli);
 /* Шапка *
 
 /* Герой початок*/
-.hero-background{background-color: #2F303A;}
-.hero-title{color:var(--primery-bg-color)
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+.hero-title{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--primery-bg-color);
+}
+.hero-background {
+    background-color: #2F303A;
 }
 .order-button{
     font-family: var(--primery-font-fameli);
@@ -103,22 +106,15 @@ background-color: #188CE8}
 /* Герой кінець*/
 
 /* Секции початок*/
-.section-title{font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+.section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color);
 }
-.list-names{
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
-/* Секции кінець*/
 
 /* Опис компанії п.*/
 .company-description{
@@ -141,7 +137,20 @@ font-weight: 500;
         letter-spacing: 0.03em;
         color: var(--primery-text-color);
 }
+.list-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.positions{
+    background-color: var(--primery-bg-color);
+}
 /* Посади працівників компанії зображення к.*/
+
+/* Секции кінець*/
 
 /* Футер початок*/
 .footer-background{background-color: #2F303A;}
