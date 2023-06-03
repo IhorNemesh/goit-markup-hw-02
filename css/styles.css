@@ -125,7 +125,7 @@ font-style: normal;
         color: var(--title-text-color);
 }
 .section-team-members{
-    background: #F5F4FA;
+    background: var(--secondary-bg-color);
 }
 /* Опис компанії п.*/
 .company-description{
@@ -155,9 +155,6 @@ font-style: normal;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-}
-.positions{
-    background-color: var(--primery-bg-color);
 }
 /* Посади працівників компанії зображення к.*/
 
